@@ -1,7 +1,10 @@
-language:c
-sudo:false#onlyforfasterbuilds
-compiler:
--clang
--gcc
+matrix:
+ inclued:
+  - language:c
+    sudo: false#onlyforfasterbuilds
+    compiler:
+      -clang
+      -gcc
 script:
--gcc-otesttest.c//wecanusegccinsteadofclangtoo8.-./test
+  -gcc-o test main.c
+  -./test
