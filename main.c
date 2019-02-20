@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -24,4 +25,15 @@ int main()
       printf("\nSystem is OFF\n");
  }
     return 0;
+}
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+
+int main()
+{
+    printf("Hello world");
 }
